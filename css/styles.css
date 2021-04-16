@@ -42,6 +42,9 @@ img {
     width: 100%;
 }
 
+
+/* Header */
+
 .header {
     position: relative;
     min-width: 320px;
@@ -100,3 +103,6 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+
+/* seccion exchange */
