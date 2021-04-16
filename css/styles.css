@@ -106,3 +106,99 @@ img {
 
 
 /* seccion exchange */
+
+.exchange {
+    background-color: var(--off-white);
+}
+
+.exchange__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 900px;
+    padding: 65px 20px;
+}
+
+.exchange__bitcoin-background {
+    height: 195px;
+    width: 195px;
+    margin-bottom: 40px;
+    background-image: url(../assets/img/Bitcoin.svg);
+}
+
+.exchange__tittle {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin-bottom: 25px;
+    text-align: center;
+    color: var(--warm-black);
+}
+
+.exchange__descripcion {
+    text-align: center;
+    color: #757575;
+}
+
+.exchange__contenedor-tasas {
+    margin-top: 80px
+}
+
+.tasas__tittle {
+    line-height: 23px;
+    font-weight: 18px;
+    margin-bottom: 10px;
+}
+
+.tasas__tittle--orange {
+    color: var(--bitcoin-orange);
+}
+
+.tasas__tittle--blue {
+    color: var(--secondary-blue);
+}
+
+.tasas__tabla {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--just-white);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.tasas__label,
+.tasas__precio {
+    padding: 15px;
+    border-right: 1px solid var(--off-white);
+    border-bottom: 1px solid var(--off-white);
+}
+
+.tasas__precio:nth-child(2n) {
+    border-right: none;
+}
+
+.tasas__label:nth-last-child(),
+.tasas__precio:nth-last-child() {
+    border-bottom: none;
+}
+
+.tasas__precio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasas__icon {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+
+.tasas__icon--down {
+    background-image: url('../assets/icon/trending-down.svg');
+}
+
+.tasas__icon--up {
+    background-image: url('../assets/icon/trending-up.svg');
+}
