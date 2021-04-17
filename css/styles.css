@@ -250,3 +250,40 @@ img {
 .tasas__fecha {
     font-weight: 500;
 }
+
+
+/* Servicios */
+
+.servicios {
+    padding: 70px 0 20px;
+    background-color: var(--black);
+    min-width: 320px;
+}
+
+.servicios__contenedor {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 90%;
+}
+
+.servicios__tittle {
+    margin-bottom: 25px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just-white);
+}
+
+.servicios__descripcion {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #808080;
+}
+
+.servicios__card {
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    margin-bottom: 15px;
+}
