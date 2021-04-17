@@ -119,14 +119,17 @@ img {
     margin: 0 auto;
     min-width: 320px;
     max-width: 900px;
-    padding: 65px 15px;
+    padding: 65px 15px 40px;
 }
 
 .exchange__bitcoin-background {
     height: 195px;
     width: 195px;
     margin-bottom: 40px;
-    background-image: url(../assets/img/Bitcoin.svg);
+    background-image: url('../assets/img/Bitcoin.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .exchange__tittle {
@@ -210,8 +213,11 @@ img {
 
 .tasas__icon {
     display: inline-block;
-    height: 12px;
-    width: 12px;
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .tasas__icon--down {
