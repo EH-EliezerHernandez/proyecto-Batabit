@@ -337,3 +337,23 @@ img {
 .servicios__card-descripcion {
     color: #808080;
 }
+
+
+/* Conocelo hoy */
+
+.bitcoin-background {
+    min-width: 320px;
+    height: 60vh;
+    background-image: url('../assets/img/bitcoinbaby.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bitcoin-background__tittle {
+    padding-top: 80px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just-white);
+}
