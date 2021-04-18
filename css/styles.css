@@ -357,3 +357,110 @@ img {
     text-align: center;
     color: var(--just-white);
 }
+
+
+/* Planes */
+
+.plans {
+    padding: 60px 15px;
+    min-width: 320px;
+    background-color: var(--off-white);
+}
+
+.plans__contenedor {
+    text-align: center;
+}
+
+.plans__tittle {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin-bottom: 25px;
+    color: var(--warm-black);
+}
+
+.plans__descripcion {
+    color: #757575;
+}
+
+.plans__contenedor-card {
+    margin-top: 60px;
+}
+
+.plans__card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 300px;
+    padding: 50px 12px 30px;
+    background-color: var(--just-white);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plans__card-etiqueta {
+    position: absolute;
+    top: -15px;
+    padding: 8px;
+    font-family: var(--second-font);
+    font-size: 1.2rem;
+    line-height: 15px;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+}
+
+.plans__card-tittle {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.plans__card-precio {
+    position: relative;
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 6.3rem;
+    color: #000000;
+}
+
+.plans__card-dollar {
+    position: absolute;
+    top: 8px;
+    left: -10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.plans__card-descripcion {
+    font-family: var(--second-font);
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    color: #757575;
+}
+
+.plans__card-boton {
+    margin-top: 20px;
+    padding: 15px;
+    font-weight: 700;
+    color: var(--warm-black);
+    border: 2px solid var(--bitcoin-orange);
+    background-color: var(--off-white);
+    border-radius: 4px;
+}
+
+.plans__card-arrow {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    margin-left: 8px;
+    vertical-align: middle;
+    background-image: url('../assets/icon/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
