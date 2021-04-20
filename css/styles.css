@@ -399,10 +399,11 @@ img {
 .plans__card {
     scroll-snap-align: center;
     display: flex;
-    flex: 0 0 75%;
+    flex: 0 0 70%;
     margin: 0 auto;
     align-items: center;
     flex-direction: column;
+    min-width: 190px;
     max-width: 300px;
     padding: 50px 12px 30px;
     background-color: var(--just-white);
